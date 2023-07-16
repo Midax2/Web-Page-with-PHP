@@ -1,0 +1,62 @@
+form {
+    font-family: cursive;
+    font-size: 20px;
+    padding: 1vw;
+}
+select, input, textarea, table {
+    border-radius: 0.5vw;
+    background-color: moccasin;
+    font-family: cursive;
+    font-size: 15px;
+}
+select:hover, option:hover {
+    cursor: pointer;
+}
+#odpowiedzi {
+    text-align: left;
+    border-radius: 3vw;
+}
+#odp_h {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 1vw;
+}
+.sub_res {
+    transition: font-size 0.5s;
+    cursor: pointer;
+}
+.sub_res:hover {
+    font-size: 20px;
+}
+table {
+    width: 300px;
+    border: solid black;
+    text-align: center;
+}
+.nr {
+    width: 100px;
+}
+#Rez p {
+    font-family: 15px;
+}
+.jest_odp {
+    display: block;
+}
+.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default;
+    background: #cf8e57;
+    border-radius: 2vw;
+}
+.ui-dialog {
+    top: 0;
+    left: 0;
+    padding: .2em;
+    border: 1px;
+    background: #cf8e57;
+    border-radius: 2vw;
+    text-align: center;
+}
